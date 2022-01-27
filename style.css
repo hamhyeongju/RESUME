@@ -1,11 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #282828;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
 .mainBox {
     border: 1px solid rgb(217, 215, 215);
     width: 610px;
-    text-align: right;
-    padding: 30px;
-    margin: 0 auto; 
-    margin: 30px;
+    padding: 30px 70px;
+    margin: 30px auto;
     box-shadow: 0 1px 20px rgba(169, 168, 168, 0.3);
+}
+
+.title-box {
+    text-align: right;
 }
 
 .nameText {
@@ -20,4 +48,47 @@ footer {
     color: rgb(163, 172, 211);
     font-size: 12px;
     padding: 7px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.nameText {
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
 }
