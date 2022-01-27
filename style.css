@@ -1,5 +1,23 @@
+.mainBox {
+    border: 1px solid rgb(217, 215, 215);
+    width: 610px;
+    text-align: right;
+    padding: 30px;
+    margin: 0 auto; 
+    margin: 30px;
+    box-shadow: 0 1px 20px rgba(169, 168, 168, 0.3);
+}
+
+.nameText {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(194, 192, 188);
+}
+
 footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(33, 18, 97);
+    color: rgb(163, 172, 211);
+    font-size: 12px;
+    padding: 7px;
 }
